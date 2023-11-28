@@ -1,29 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ODS13 - Ação contra a mudança global do clima.</title>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(70, 201, 224)
+}
 
-    <link rel="stylesheet" href="Styles.css">
-</head>
-<body>
-    <nav>
-        <h2>ODS13 - Ação contra a mudança global do clima.</h2>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Causas e efeitos</a></li>
-            <li><a href="#">Soluções</a></li>
-            <li><a href="#">Videos</a></li>
-            </a></li>
-        </ul>
-    </nav>
-    <section>
-        <h1> O que é a ODS13? </h1>
-        <p>O ODS 13 foca na necessidade de adotar medidas urgentes para acabar com as mudanças climáticas que afetam todos os países do mundo. De acordo com a ONU, os cientistas dedicados às questões climáticas já demonstraram que as pessoas são as responsáveis pelo aquecimento global dos últimos 200 anos. As atividades humanas, como a queima de combustíveis fósseis, o desmatamento, a perda de florestas ou as atividades agrícolas e pecuárias que usam fertilizantes e outros produtos químicos, têm sido os principais causadores das mudanças climáticas.    </p>
-    </footer>
-    <img src="img/ods13..jpg" alt="imagemodsonu" width="500">
-    
-<p> Jéssica Siervi &copy; 2023</p>
-</body>
-</html>
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+ul li {
+    margin-inline-start: 12px;
+}
+
+ul li a {
+    color: #050505;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+img {
+    border: 2px solid #000000;
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid #000000;
+    margin-top: 20px;
+
+}
+#bloco1{
+    width: 900px;
+    margin: auto;
+}
